@@ -1,0 +1,425 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@import url("https://fonts.googleapis.com/css?family=Lato:400|Poppins:700");
+
+:root {
+  --gulp-blue: #082b59;
+  --text---dark-bg: #ffffff;
+  --gulp-orange: #d98555;
+  --black: #000000;
+  --font-size-l: 24px;
+  --font-size-xxl: 40px;
+  --font-size-m: 19.2px;
+  --font-size-xl: 26.4px;
+  --font-size-xs: 16px;
+  --font-size-s: 17.6px;
+  --font-family-lato: "Lato", Helvetica;
+  --font-family-poppins: "Poppins", Helvetica;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.products-mobile {
+  align-items: flex-start;
+  background-color: var(--text---dark-bg);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  min-width: 375px;
+  overflow: hidden;
+  position: relative;
+}
+
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.footer {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: var(--gulp-blue);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: auto;
+  mix-blend-mode: normal;
+  position: relative;
+}
+
+.p {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 19.2px;
+  padding: 5px;
+  position: relative;
+}
+
+.lato-normal-white-16px {
+  color: var(--text---dark-bg);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.this-site-is-operate {
+  align-self: stretch;
+  letter-spacing: 0;
+  line-height: 38.4px;
+  position: relative;
+  text-align: center;
+}
+
+.x2022-trilogy-educat {
+  align-self: stretch;
+  color: var(--text---dark-bg);
+  font-weight: 400;
+  line-height: 38.4px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+}
+
+.p-mobile {
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.sm-icons {
+  align-self: stretch;
+  height: 112px;
+  min-width: 375px;
+  position: relative;
+}
+
+.orange-bar {
+  align-self: stretch;
+  background-color: var(--gulp-orange);
+  height: 10px;
+  min-width: 375px;
+  position: relative;
+}
+
+.headermobile {
+  align-items: center;
+  background-color: var(--gulp-blue);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 408px;
+  justify-content: center;
+  position: relative;
+  width: fit-content;
+}
+
+.nav {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  width: 375px;
+}
+
+.ul {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  transform: rotate(180deg);
+}
+
+.products-mobile .li {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 16px 16px;
+  position: relative;
+  transform: rotate(180deg);
+}
+
+.link-1 {
+  align-self: stretch;
+  cursor: pointer;
+  height: 58px;
+  min-width: 303px;
+  position: relative;
+}
+
+.products-mobile .overlap-group-3 {
+  height: 58px;
+  position: relative;
+  top: -1px;
+}
+
+.overlap-group-1 {
+  left: 116px;
+  width: 94px;
+}
+
+.nav-links-mobile {
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.link {
+  color: var(--text---dark-bg);
+  font-weight: 400;
+  left: 0;
+  line-height: 58px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.icon-1 {
+  left: 76px;
+  width: 18px;
+}
+
+.products-mobile .icon-3 {
+  height: 24px;
+  position: absolute;
+  top: 18px;
+  transform: rotate(-180deg);
+}
+
+.a {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  width: fit-content;
+}
+
+.logo {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/64740346db5759783bf2288b/releases/64740352fae5e5512a83660f/img/logo@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 100px;
+  min-width: 200px;
+  position: relative;
+}
+
+.li-link {
+  cursor: pointer;
+}
+
+.a-1 {
+  align-self: stretch;
+  height: 58px;
+  min-width: 303px;
+  position: relative;
+}
+
+.overlap-group {
+  height: 58px;
+  left: 136px;
+  position: relative;
+  top: -1px;
+  width: 66px;
+}
+
+.icon {
+  height: 24px;
+  left: 36px;
+  position: absolute;
+  top: 18px;
+  transform: rotate(-180deg);
+  width: 30px;
+}
+
+.overlap-group-2 {
+  left: 124px;
+  width: 84px;
+}
+
+.icon-2 {
+  left: 60px;
+  width: 24px;
+}
+
+.main-bkgd {
+  align-items: flex-start;
+  align-self: stretch;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/64740346db5759783bf2288b/releases/6474073549c630a66c95bf6e/img/main-bkgd-7.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0px 0px 300px;
+  position: relative;
+}
+
+.one-column {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  height: 1952px;
+  overflow: hidden;
+  padding: 24px;
+  position: relative;
+  width: 375px;
+}
+
+.article {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  padding: 12px 0px 0px;
+  position: relative;
+}
+
+.h1-mobile {
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.title {
+  color: var(--black);
+  font-weight: 700;
+  line-height: 80px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.products {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 24px;
+  position: relative;
+}
+
+.products-mobile .img-3 {
+  border-radius: 10px;
+  height: 200px;
+  position: relative;
+}
+
+.img-div {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow: hidden;
+}
+
+.img-1 {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/64740346db5759783bf2288b/releases/64740352fae5e5512a83660f/img/img-11@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  margin-right: -24px;
+  min-width: 303px;
+}
+
+.img {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/64740346db5759783bf2288b/releases/64740352fae5e5512a83660f/img/img-8@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  height: 200px;
+  margin-right: -24px;
+  min-width: 303px;
+  position: relative;
+}
+
+.text {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 21px 0px;
+  position: relative;
+}
+
+.skillfully-roasted-a {
+  align-self: stretch;
+  color: var(--black);
+  font-weight: 400;
+  line-height: 38.4px;
+  position: relative;
+}
+
+.products-mobile .h2-3 {
+  align-self: stretch;
+  color: var(--black);
+  font-weight: 700;
+  line-height: 38.4px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.h2-mobile {
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.h2 {
+  align-self: stretch;
+  color: var(--black);
+  font-weight: 700;
+  line-height: 38.4px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.with-our-columbian-b {
+  align-self: stretch;
+  color: var(--black);
+  font-weight: 400;
+  line-height: 38.4px;
+  position: relative;
+}
+
+.img-2 {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/64740346db5759783bf2288b/releases/64740352fae5e5512a83660f/img/img-12@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  flex: 1;
+  margin-right: -24px;
+  min-width: 303px;
+}
+
+.our-lightly-roasted {
+  align-self: stretch;
+  color: var(--black);
+  font-weight: 400;
+  line-height: 38.4px;
+  position: relative;
+}

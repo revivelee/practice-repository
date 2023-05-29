@@ -1,0 +1,387 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@import url("https://fonts.googleapis.com/css?family=Lato:400|Poppins:700");
+
+:root {
+  --gulp-blue: #082b59;
+  --text---dark-bg: #ffffff;
+  --gulp-orange: #d98555;
+  --gulp-brown: #59331d;
+  --black: #000000;
+  --font-size-l: 24px;
+  --font-size-xxl: 40px;
+  --font-size-m: 19.2px;
+  --font-size-xs: 16px;
+  --font-family-lato: "Lato", Helvetica;
+  --font-family-poppins: "Poppins", Helvetica;
+}
+
+.about {
+  display: flex;
+  position: relative;
+}
+
+.about-tablet {
+  align-items: flex-start;
+  background-color: var(--text---dark-bg);
+  border: 1px none;
+  flex-direction: column;
+  min-width: 834px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.orange-bar-1 {
+  align-self: stretch;
+  background-color: var(--gulp-orange);
+  height: 10px;
+  min-width: 834px;
+  position: relative;
+}
+
+.footer-1 {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: var(--gulp-blue);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: auto;
+  mix-blend-mode: normal;
+  position: relative;
+}
+
+.p-1 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 19.2px;
+  padding: 5px;
+  position: relative;
+}
+
+.x2022-trilogy-educat-1 {
+  align-self: stretch;
+  color: var(--text---dark-bg);
+  font-weight: 400;
+  line-height: 38.4px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.p-mobile {
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.lato-normal-white-16px {
+  color: var(--text---dark-bg);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.this-site-is-operate-1 {
+  align-self: stretch;
+  letter-spacing: 0;
+  line-height: 38.4px;
+  position: relative;
+  text-align: center;
+}
+
+.sm-icons-1 {
+  align-self: stretch;
+  height: 112px;
+  min-width: 834px;
+  position: relative;
+}
+
+.headertablet {
+  align-items: center;
+  align-self: stretch;
+  background-color: var(--gulp-blue);
+  gap: 10px;
+  justify-content: center;
+}
+
+.nav-1 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+}
+
+.ul-1 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 204px;
+  justify-content: center;
+  padding: 10px;
+  position: relative;
+  transform: rotate(180deg);
+}
+
+.li-logo {
+  align-self: stretch;
+  height: 116px;
+  padding: 0px 16px 16px;
+}
+
+.about-tablet .li {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  transform: rotate(180deg);
+}
+
+.about-tablet .a {
+  display: flex;
+  position: relative;
+}
+
+.a-2 {
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  width: fit-content;
+}
+
+.logo-1 {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/64740346db5759783bf2288b/releases/64740352fae5e5512a83660f/img/logo@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 100px;
+  min-width: 200px;
+  position: relative;
+}
+
+.links {
+  align-items: flex-start;
+  gap: 20px;
+  width: fit-content;
+}
+
+.about-tablet .li-link-3 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  transform: rotate(180deg);
+}
+
+.li-link-2 {
+  width: 101px;
+}
+
+.a-5 {
+  align-items: center;
+  align-self: stretch;
+  gap: 5px;
+  justify-content: center;
+}
+
+.nav-links-mobile {
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.link-2 {
+  color: var(--text---dark-bg);
+  font-weight: 400;
+  line-height: 58px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.icon-5 {
+  min-width: 30px;
+}
+
+.about-tablet .icon {
+  height: 24px;
+  position: relative;
+  transform: rotate(-360deg);
+}
+
+.li-link {
+  cursor: pointer;
+  width: 113px;
+}
+
+.a-3 {
+  align-items: center;
+  align-self: stretch;
+  gap: 5px;
+  justify-content: center;
+}
+
+.icon-3 {
+  min-width: 24px;
+}
+
+.li-link-1 {
+  width: 117px;
+}
+
+.a-4 {
+  align-items: center;
+  align-self: stretch;
+  cursor: pointer;
+  gap: 5px;
+  justify-content: center;
+}
+
+.icon-4 {
+  min-width: 18px;
+}
+
+.main-bkgd-1 {
+  align-items: flex-start;
+  align-self: stretch;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/64740346db5759783bf2288b/releases/64740352fae5e5512a83660f/img/main-bkgd-1.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0px 0px 300px;
+  position: relative;
+}
+
+.about-1 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  height: 739px;
+  padding: 32px;
+  position: relative;
+}
+
+.about-cell-2 {
+  flex: 1;
+  gap: 10px;
+  padding: 10px;
+}
+
+.about-tablet .about-cell {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.h1-mobile {
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.title-1 {
+  color: var(--black);
+  font-weight: 700;
+  line-height: 80px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.life-without-coffee-1 {
+  align-self: stretch;
+  color: transparent;
+  font-weight: 400;
+  line-height: 38.4px;
+  position: relative;
+}
+
+.span-1 {
+  color: var(--black);
+}
+
+.span1-1 {
+  color: var(--gulp-brown);
+  text-decoration: underline;
+}
+
+.button-1 {
+  align-items: center;
+  background-color: var(--gulp-brown);
+  border-radius: 7px;
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 8px 16px;
+  position: relative;
+  width: fit-content;
+}
+
+.button-text-1 {
+  color: var(--text---dark-bg);
+  font-weight: 400;
+  line-height: 38.4px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.about-cell-3 {
+  width: fit-content;
+}
+
+.picture-1 {
+  align-items: flex-start;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 436px;
+  overflow: hidden;
+  position: relative;
+  width: 269px;
+}
+
+.img-1 {
+  align-self: stretch;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/64740346db5759783bf2288b/releases/64740352fae5e5512a83660f/img/img-1@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 10px;
+  flex: 1;
+  height: 436px;
+  min-width: 269px;
+  position: relative;
+}
